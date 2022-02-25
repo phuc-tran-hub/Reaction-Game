@@ -84,7 +84,6 @@ int main(void){
                     PORTB &= ~led_mask;
                     _delay_ms(LED_OFF_TIME); 
 
-                    // TODO: make the speed dynamic to the 
                     speed++;
                     if (speed == 7){
                         speed = 1;
@@ -100,10 +99,10 @@ int main(void){
             
             case PREPARATION:
 
-                // EC: Count to the random count that was created in preparation
+                // Count to the random count that was created in preparation
                 countdown++; 
 
-                // EC: A false start, pressing one's button out of turn awards a win to the other player
+                // A false start, pressing one's button out of turn awards a win to the other player
                 if ((PIND & left_button_pin_mask) == 0){
                     winner = 2;
                     countdown = 0;
