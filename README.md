@@ -1,6 +1,6 @@
 # Phuc Tran
 
-## October 2021
+## January 2022
 
 ### Reaction Arduino Game
 
