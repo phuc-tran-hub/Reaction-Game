@@ -10,7 +10,7 @@ The program implements a two-person reaction game where each player is given a p
 
 ### State Diagram
 
-![alt text](https://github.com/phuc-tran-hub/Reaction-Game/ReactionGameStateMachine.drawio.png?raw=true)
+![alt text](https://github.com/phuc-tran-hub/Reaction-Game/blob/main/ReactionGameStateMachine.drawio.png?raw=true)
 
 ### Evaluation
 
